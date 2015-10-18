@@ -13,9 +13,24 @@
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- PRELOADER -->
+    <div id="prelaoder">
+        <div class="socket">
+            <img src="assets/img/spinner.png">
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!-- CANVAS -->
+    <div id="canvas-container">
+        <canvas id="gravity"></canvas>
+    </div>
+    <!-- /CANVAS -->
+
     <!-- BLOCK LOGO -->
     <div class="container-fluid">
         <div class="row">
@@ -31,46 +46,44 @@
         <!-- BLOCK CONTENT -->
         <div class="row">
             <div class="col-sm-12 block-content">
-                <img class="img-responsive center-block" src="assets/img/AltamiraVillage_Logo.png">
-                <p class="bold">EN CONSTRUCCION</p>
-                <p class="light">Próximamente la página estará abierta para todos nuestros visitantes.</p>
+                <img class="logo img-responsive center-block" src="assets/img/AltamiraVillage_Logo.png">
+                <div class="fade">
+                    <p class="bold">EN CONSTRUCCION</p>
+                    <p class="light">Próximamente la página estará abierta para todos nuestros visitantes.</p>
+                </div>
             </div>
         </div>
         <!-- /BLOCK CONTENT -->
 
         <!-- BLOCK SOCIAL -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 block-social">
+        <div class="row block-social">
+            <div class="col-xs-12 col-sm-4">
                 <img src="assets/img/Brand_Icon_Facebook.png">
                 <span class="bold">AltamiraVillageCC</span>
             </div>
-            <div class="col-xs-12 col-sm-4 block-social">
+            <div class="col-xs-12 col-sm-4">
                 <img src="assets/img/Brand_Icon_Twitter.png">
                 <span class="bold">@CCAltamiraV</span>
             </div>
-            <div class="col-xs-12 col-sm-4 block-social">
+            <div class="col-xs-12 col-sm-4">
                 <img src="assets/img/Brand_Icon_Instagram.png">
                 <span class="bold">@AltamiraVillageCC</span>
             </div>
         </div>
         <!-- /BLOCK SOCIAL -->
 
+        <!-- BLOCK DROP -->
         <div class="row">
             <div class="col-xs-12 block-drop">
                 <img src="assets/img/Brand_Icon_DropDown.png">
             </div>
         </div>
+        <!-- /BLOCK DROP -->
     </div>
 
-    <!-- <nav class="navbar navbar-fixed-bottom">
-        <div class="container"> -->
-            <!-- BLOCK DROP -->
-            <!-- <div class="col-xs-12 block-drop">
-                <img src="assets/img/Brand_Icon_DropDown.png">
-            </div> -->
-            <!-- /BLOCK DROP -->
-        <!-- </div>
-    </nav> -->
-
+    <!-- JAVASCRIPTS -->
+    <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
 </body>
 </html>
