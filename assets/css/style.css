@@ -1,0 +1,89 @@
+/* GENERAL */
+body{
+    background: #000;
+    color: #fff;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.container{
+    max-width: 800px;
+}
+
+/* BLOCK LOGO */
+
+.block-logo{
+    text-align: right;
+    margin-bottom: 160px;
+    position: relative;
+}
+
+.block-logo img{
+    width: 150px;
+    height: 40px;
+}
+
+.block-logo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 88px;
+}
+
+/* BLOCK CONTENT */
+
+.block-content{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.block-content img{
+    width: 330px;
+    height: 90px;
+    margin-bottom: 60px;
+}
+
+.block-content p{
+    margin-bottom: 0;
+}
+
+.block-content .bold{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.block-content .light{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+/* BLOCK SOCIAL */
+
+.block-social{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.block-social img{
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+}
+
+.block-social .bold{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+/* BLOCK DROP */
+
+.block-drop{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.block-drop img{
+    width: 69px;
+    height: 69px;
+}
