@@ -55,14 +55,14 @@ $(document).ready( function(){
     function callCanvas (canvas) {
 
         // SETTINGS
-        var screenpointSplitt = 12000
-        var movingSpeed = 0.1
+        var screenpointSplitt = 12000;
+        var movingSpeed = 0.1;
 
         var viewportWidth = $(window).width();
         var viewportHeight = $(window).height();
 
         // Calculate Screen Dots
-        var nbCalculated = Math.round(viewportHeight*viewportWidth/screenpointSplitt)
+        var nbCalculated = Math.round(viewportHeight*viewportWidth/screenpointSplitt);
 
         //CONFIG
         var _this = this,
@@ -253,4 +253,15 @@ $(document).ready( function(){
         }, 400, "some unique string");
     });
 
+});
+
+// CYCLE
+$(document).ready( function(){
+    $('.slider').cycle({
+        fx : 'scrollVert',
+        timeout: 7000,
+        delay: 1000,
+        speed: 500,
+        slides: '.slide'
+    });
 });
