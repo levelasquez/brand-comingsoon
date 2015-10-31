@@ -254,14 +254,3 @@ $(document).ready( function(){
     });
 
 });
-
-// CYCLE
-$(document).ready( function(){
-    $('.slider').cycle({
-        fx : 'scrollVert',
-        timeout: 7000,
-        delay: 1000,
-        speed: 500,
-        slides: '.slide'
-    });
-});
